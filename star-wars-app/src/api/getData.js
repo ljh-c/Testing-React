@@ -7,7 +7,3 @@ export const getData = async url => {
     throw new Error(err);
   }
 };
-
-export const insaneFunction = () => {
-  console.log('sanity test');
-};
